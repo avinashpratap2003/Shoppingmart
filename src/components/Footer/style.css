@@ -1,0 +1,63 @@
+footer {
+  background-color: #0f3460;
+  padding: 80px 0;
+  color: #fff;
+}
+
+
+footer .box {
+  padding: 0 20px;
+}
+
+footer h1 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  width: max-content;
+}
+
+footer .logo {
+  color: white;
+  display:flex;
+  align-items:center;
+  gap:5px;
+  margin-bottom: 20px;
+}
+footer h2 {
+  font-size: 20px;
+}
+
+footer .row {
+  justify-content: center;
+}
+
+footer p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+footer h2 {
+  margin-bottom: 20px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  margin-bottom: 10px;
+  opacity: 0.5;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s ease;
+  
+}
+
+footer li:hover {
+  transform: translateX(10px);
+  /* color: white; */
+}
+
+
+
