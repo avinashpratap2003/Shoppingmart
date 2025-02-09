@@ -25,4 +25,4 @@ const Wrapper = () => {
   )
 }
 
-export default Wrapper
+export default Wrapper;

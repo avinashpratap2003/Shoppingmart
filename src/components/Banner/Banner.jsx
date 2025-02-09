@@ -1,3 +1,4 @@
+//Product page Banner
 import { Col, Container, Row } from "react-bootstrap";
 import productBg from "../../Images/table.jpg";
 import "./banner.css";

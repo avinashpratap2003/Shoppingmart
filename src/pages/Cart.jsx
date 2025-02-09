@@ -28,7 +28,7 @@ const Cart = () => {
         <Row className="justify-content-center">
           <Col md={8}>
             {cartList.length === 0 && (
-              <h1 className="no-items product">No Items are add in Cart</h1>
+              <h1 className="no-items product">No Items are added in Cart</h1>
             )}
             {cartList.map((item) => {
               const productQty = item.price * item.qty;

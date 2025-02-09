@@ -12,7 +12,7 @@ const Cart = lazy(() => import("./pages/Cart"));
 const Product = lazy(() => import("./pages/Product"));
 function App() {
   return (
-    <Suspense fallback={<Loader />}>
+    <Suspense fallback={<Loader />}> {/* Suspense enables Lazy Loading*/}
       <Router>
         <ToastContainer
           position="top-right"
